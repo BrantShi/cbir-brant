@@ -8,3 +8,16 @@
 
 项目基于Flask 框架搭建云端服务，服务器由nginx & uwsgi协作构成，故使用此项目首先需保证安装有以上两者。
 
+## 安装
+
+```bash
+# 复制仓库并进入相应目录
+$ git clone https://github.com/BrantShi/cbir-brant.git
+$ cd cbir-brant
+
+# 激活虚拟环境并安装所有必要的组件
+$ virtualenv env
+$ source env/bin/activate
+$ pip install -r requirements.txt
+```
+
